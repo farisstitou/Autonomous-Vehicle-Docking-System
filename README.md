@@ -3,6 +3,7 @@
 
 ## Authors
 Faris Stitou, George Hinds
+
 Based on Morris, J.C. thesis on AUTOMATED SPACECRAFT DOCKING USING A VISION-BASED RELATIVE NAVIGATION SENSOR
 
 ## What it does
@@ -19,4 +20,5 @@ Using a good enough initial guess of the targets position and orientation, the m
 
 ## Known Discrepancy
 When looking at the output of the test cases, if the target is oriented X degrees, the position vector appears to be incorrect. The magnitude of this 'incorrect' vector is exactly equal to the magnitude of the true vector. We believe that if you were to rotate the vehicle and then draw the vector, you will see the correct position.
+
 
